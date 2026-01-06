@@ -4,6 +4,7 @@ from level import Level
 from tile import Tile
 from player import Player
 
+
 class Game:
     def __init__(self):
         
@@ -12,7 +13,7 @@ class Game:
         pygame.display.set_caption('Mizelda')
         self.clock = pygame.time.Clock()
 
-        self.level = Level()
+        self.level = Level() 
 
     def run(self):  
         while True:
